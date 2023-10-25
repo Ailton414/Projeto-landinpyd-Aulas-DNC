@@ -1,0 +1,230 @@
+
+/*zeramento das magens e pading*/
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+/*Header menu superior da pagina */
+
+header{
+    width: 100%;
+    height: auto;
+}
+header #logo{
+    padding:27px 0px 27px 45px;
+    background-color:#FFD900;
+}
+
+header #logo img{
+    cursor: pointer;
+    max-width: 14%;
+}
+
+/*Seção de de texto vide do mei da pagina*/
+section{
+    display: flex;
+    justify-content: center;
+}
+
+section #text-section{
+    width: 40%;
+    height: auto;
+    background-color: #514988;
+    padding:0px;
+    text-align: center;
+    padding-left: 20px;
+    margin-right: 10px;
+    flex-grow: 1;
+   
+}
+
+section #titulo-section{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #F3C61F;
+    font-weight: 700;
+    font-size: 50px;
+    margin: 0px;
+    line-height:85.07px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-right: 20px;
+    
+}
+
+section #text-section #P1{
+    color: #FFF;
+    font-family: Verdana;
+    font-size: 23.2px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    margin-top: 10px;
+
+}
+
+section #text-section #P2{
+    color: #FFF;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom:80px;
+    margin-right: 20px;
+}
+section #secao-video{
+    width:auto;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 2;
+}
+
+ section #cawdw ul{
+    display: flex;
+    justify-content:left;
+    align-items: flex-end;
+    color: #514988;
+    text-align: center; 
+    font-family: Verdana;
+    list-style: none;
+    margin: 20px 0px 0px 0px;
+    padding: 0px;
+}
+
+section #cawdw ul li h1{
+    font-size: 50px;
+    margin: 0px 20px 0px 30px;
+    cursor:pointer;
+   
+}
+
+section #cawdw ul li h1:hover{
+    transform:translateY(-05px);
+    text-shadow: 3px 3px 2px #0505056e;
+    transition: 0.5s;
+  
+
+}
+
+section #cawdw h2{
+    color: #E33881;
+    font-family: Verdana;
+    font-size: 23.2px;
+    font-weight: 700;
+    margin-left: 30px;
+}
+
+section div #video-edit{
+    margin: 10px 0px 0px 0px;
+    padding: 0px;
+    width:700px ;
+    height:auto;
+}
+
+/*****************************************/
+/*footer*/
+
+footer{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+footer #h2img{
+    display: flex;
+    justify-content:baseline;
+    flex-direction: column;
+    align-items:center;
+    margin-right: 100px;
+}
+#text-inferior h2{
+    color: #F3C61F;
+    font-family: Verdana;
+    font-size: 20px;
+    font-weight: 700;
+    text-align:justify;
+    margin: 10px 0px 20px 0px;
+    cursor: pointer;
+}
+
+#text-inferior h2:hover{
+     color: #514988;
+}
+
+footer form #input01{
+    width: 370px;
+    height: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    background: #514988;
+    color: #FFF;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+    margin: auto;
+    margin-top: 60px;
+    margin-right: 0px;
+    cursor: pointer;
+}
+
+footer #imagens img{
+    max-width: 150px;
+}
+
+/*CALSSE PRA TRABALHA COM JS QUERYSELECTOR*/
+.Card-highlight{
+    box-shadow: 10px 10px 10px 10px gray;
+}
+
+.test{
+   border: 1px solid red;
+}
+
+/*******Desafio******/
+.card-slected{
+    border: 5px solid green;
+}
+
+#email{
+    width: 350px;
+    height: 50px;
+    padding: 10px;
+    background: #514988;
+    color: #FFF;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+    margin-top: 10px;
+    border-radius: 10px; 
+}
+button{
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    background: #514988;
+    color:white;
+   border-radius: 10px;
+   border: none;
+}
+
+#formulario{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CCXP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!--header menu superior da pagina-->
+    <header>
+        <div id="logo">
+            <a href="#imagens"><img src="./imagen/imagenlogo.svg" alt="erro"></a>
+        </div>
+    </header>
+
+    <!--seção texto video do meio da pagina-->
+    <section id="tt">
+         <div id="text-section">
+            <h1 id="titulo-section">
+                reviva o épico
+            </h1>
+            <p id="P1">
+                de 01 a 04 de dezembro
+            </p>
+            
+            <p id="P2">
+                Você consegue sentir? É aquela sensação de <br>
+                finalmente poder falar em voz alta: "estamos <br>
+                em casa". Sim, em dezembro de 2022, <br>
+                teremos a volta da CCXP física. Mas não será <br>
+                qualquer CCXP, vai ser a maior de todos os <br>
+                tempos. Prepare-se para visitar seus <br>
+                universos favoritos, explorar o Artists' Valley, <br>
+                se emocionar nos auditórios e encontrar <br>
+                aventuras épicas a cada passo pelos nossos <br>
+                corredores. 
+            </p> 
+        </div>
+        <div id="secao-video">
+            <!--seção cawdw-->
+            <div id="cawdw">
+                <ul>
+                    <li><h1 id="dia">03D</h1></li>
+                    <li><h1 id="hora">01H</h1></li>
+                    <li><h1 id="minuto">01M</h1></li>
+                    <li><h1 id="segundo">01S</h1></li>
+                </ul>
+                <div>
+                    <h2>
+                        PARA A MAIOR CCXP DE TODOS OS TEMPOS
+                    </h2>
+                </div>
+            </div>
+
+            <!--Video abaixo do cawdw-->
+            <div>
+                <video id="video-edit" width="880px" height="510px" controls loop src="./video/Arlequina (1).mp4.crdownload"></video>
+            </div>
+
+        </div>
+    </section>
+
+    <!--**************************************************************-->
+
+    <footer>
+        <div id="h2img">
+            <div id="text-inferior">
+                <h2>
+                    AINDA DÁ TEMPO DE GARANTIR O SEU, MAS CORRE!
+                </h2>
+            </div>
+            <div id="imagens">
+                <img src="./imagen/ingresso01.svg" onmouseover="highlightCard('#quinta')" onmouseout="highlightCard('#quinta')" id="quinta" alt="">
+                <img src="./imagen/ingresso02.svg" onmouseover="highlightCard('#sexta')" onmouseout="highlightCard('#sexta')" id="sexta" alt="">
+                <img src="./imagen/ingresso03.svg" onmouseover="highlightCard('#sabado')" onmouseout="highlightCard('#sabado')" id="sabado" alt="">
+                <img src="./imagen/ingresso04.svg" onmouseover="highlightCard('#domingo')" onmouseout="highlightCard('#domingo')" id="domingo" alt="">
+            </div>
+        </div>
+        <div >
+            <form id="formulario" action="">
+                <a href=""> <input id="input01" type="button" value="GARANTA O SEU!"></a> <br>
+                <input id="email" type="email" placeholder="Seu email" required> <br>
+                <button type="submit" name="Enviar" value="01">Enviar</button>
+            </form>
+        </div>
+        
+       
+    </footer>
+       
+    <script src="index.js"></script>
+</body>
+</html>
