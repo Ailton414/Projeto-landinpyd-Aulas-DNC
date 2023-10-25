@@ -6,6 +6,7 @@ var segundo = window.document.getElementById('segundo')
 
 const lancamento ="30 oct 2023"
 
+// Função de contagem de tempo 
 function coutDown(){
     const dataLanc = new Date(lancamento)
     const hoje = new Date()
@@ -22,39 +23,31 @@ dia.innerHTML =` D${finaldias}`
 hora.innerHTML = formatoTempo(`H${finalhoras}`)
 minuto.innerHTML =formatoTempo(`M${finalminutos}`)
 segundo.innerHTML =formatoTempo(` S${finalsegundos}`)
-
 }
-
 function formatoTempo(tempo){
 
     return tempo <10? `0${tempo}`:tempo;
 
 }
-
-coutDown();
+coutDown();//Chamada de função contagem de tempo
 
 setInterval(coutDown,'1000');
-/***********************************/
-
 function highlightCard(selector){
     var element =document.querySelector(selector);
     //toggle alterna entre classes do css
     element.classList.toggle("Card-highlight");
 }
 
-/*******************Desafio***********************/
-
-/**EVENTOS DE TECLADO**/
-
+/*Função para identificar o codigo das teclas do teclado */
 function checarCodigoDasTeclas(){
 document.addEventListener('keydown',(event)=>{
     var name = event.key;
     var code = event.code;
     alert(`tecla pressionada${name} \r\n valor do codigo:${code}` );
 } , false);
-
 }
 
+/*Função para adicionar Eventos de teclado na pagina */
 function addKeyboaedEventListeners(){
 
     document.addEventListener('keydown',(event)=>{ 
@@ -94,10 +87,6 @@ function addKeyboaedEventListeners(){
         ingresso3.classList.remove("Card-highlight");    
         ingresso4.classList.toggle("Card-highlight");           
     }
-
-   
-
     },false); 
 }
-
-addKeyboaedEventListeners();
+addKeyboaedEventListeners(); //Chamada de função evento de tecla 

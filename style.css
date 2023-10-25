@@ -6,11 +6,11 @@
 }
 
 /*Header menu superior da pagina */
-
 header{
     width: 100%;
     height: auto;
 }
+
 header #logo{
     padding:27px 0px 27px 45px;
     background-color:#FFD900;
@@ -36,7 +36,6 @@ section #text-section{
     padding-left: 20px;
     margin-right: 10px;
     flex-grow: 1;
-   
 }
 
 section #titulo-section{
@@ -48,8 +47,7 @@ section #titulo-section{
     line-height:85.07px;
     text-transform: uppercase;
     margin-top: 10px;
-    margin-right: 20px;
-    
+    margin-right: 20px; 
 }
 
 section #text-section #P1{
@@ -62,7 +60,6 @@ section #text-section #P1{
     text-transform: uppercase;
     margin-bottom: 50px;
     margin-top: 10px;
-
 }
 
 section #text-section #P2{
@@ -76,6 +73,7 @@ section #text-section #P2{
     margin-bottom:80px;
     margin-right: 20px;
 }
+
 section #secao-video{
     width:auto;
     height: auto;
@@ -107,8 +105,6 @@ section #cawdw ul li h1:hover{
     transform:translateY(-05px);
     text-shadow: 3px 3px 2px #0505056e;
     transition: 0.5s;
-  
-
 }
 
 section #cawdw h2{
@@ -126,9 +122,7 @@ section div #video-edit{
     height:auto;
 }
 
-/*****************************************/
 /*footer*/
-
 footer{
     display: flex;
     justify-content:center;
@@ -136,6 +130,7 @@ footer{
     margin-bottom: 10px;
     padding: 10px;
 }
+
 footer #h2img{
     display: flex;
     justify-content:baseline;
@@ -143,6 +138,7 @@ footer #h2img{
     align-items:center;
     margin-right: 100px;
 }
+
 #text-inferior h2{
     color: #F3C61F;
     font-family: Verdana;
@@ -154,7 +150,7 @@ footer #h2img{
 }
 
 #text-inferior h2:hover{
-     color: #514988;
+    color: #514988;
 }
 
 footer form #input01{
@@ -190,7 +186,6 @@ footer #imagens img{
    border: 1px solid red;
 }
 
-/*******Desafio******/
 .card-slected{
     border: 5px solid green;
 }
@@ -210,6 +205,7 @@ footer #imagens img{
     margin-top: 10px;
     border-radius: 10px; 
 }
+
 button{
     width: 100px;
     height: 50px;
