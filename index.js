@@ -101,9 +101,3 @@ function addKeyboaedEventListeners(){
 }
 
 addKeyboaedEventListeners();
-
-/*************************************TRABALHANDO COM ARRYS**********************************/
-
-
-
-
